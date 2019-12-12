@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello my friends and {{ member }}!"
+        msg: "Hello my friends, {{ member }} and {{ var }}!"
